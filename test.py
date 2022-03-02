@@ -10,3 +10,5 @@ repo = Repo("/home/gotest")
 
 node = repo.index.commit("修改test文件")
 print(node)
+
+repo.index.push()
