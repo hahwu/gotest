@@ -6,6 +6,6 @@ fo.write("hello world")
 
 fo.close()
 
-repo = Repo("/home/swoole/gotest")
+repo = Repo("/home/gotest")
 
 repo.index.commit("修改test文件")
